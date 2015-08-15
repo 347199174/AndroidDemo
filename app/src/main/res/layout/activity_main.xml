@@ -1,0 +1,37 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+
+    <TextView
+        android:text="功能列表"
+        android:layout_width="match_parent"
+        android:layout_height="55sp"
+        android:textSize="22sp"
+        android:textColor="#ff0000"
+        android:background="#8866ff00"
+        android:gravity="center"
+        />
+
+    <com.example.jack.test.ui.FocusTextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=" aasda撒打算打算打算大厦大asdadasdakakldasdkladklasdlasdkalsdaksdald"
+        android:singleLine="true"
+        android:textSize="18sp"
+        android:ellipsize="marquee"
+        />
+
+    <GridView
+        android:verticalSpacing="10dip"
+        android:layout_marginTop="15dip"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/gv_list_home"
+        android:numColumns="3"
+        />
+
+</LinearLayout>
