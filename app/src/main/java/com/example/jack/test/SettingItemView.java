@@ -17,8 +17,6 @@ public class SettingItemView extends RelativeLayout {
     private TextView tv_desc,tv_name;
     /**
      * 初始化布局文件
-     * @param context
-     * @return
      */
     private void initView(Context context)
     {
@@ -56,7 +54,7 @@ public class SettingItemView extends RelativeLayout {
     {
         cb_status.setChecked(checked);
     }
-    //设置组合空间的描述信息
+    //设置组合空间的描述信息aaa
     public void setDesc(String text)
     {
         tv_desc.setText(text);
