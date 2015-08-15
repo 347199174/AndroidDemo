@@ -54,7 +54,7 @@ public class SettingItemView extends RelativeLayout {
     {
         cb_status.setChecked(checked);
     }
-    //设置组合空间的描述信息aaa
+    //设置组合空间的描述信息aaaccc
     public void setDesc(String text)
     {
         tv_desc.setText(text);
